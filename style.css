@@ -179,6 +179,10 @@
             align-items: center;
             gap: 5rem;
             width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 1rem;
+            padding-top: calc(var(--header-height) + 20px);
         }
 
         .hero-text {
@@ -1050,6 +1054,7 @@
                 flex-direction: column;
                 gap: 4rem;
                 text-align: center;
+                padding-top: calc(var(--header-height) + 20px);
             }
             
             .hero-text {
@@ -1096,6 +1101,11 @@
         @media (max-width: 768px) {
             .mobile-toggle {
                 display: block;
+                 .header-container {
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 1rem;
+                }
             }
             
             nav ul {
@@ -1395,6 +1405,7 @@
                 min-height: auto;
                 padding: 1.5rem 0;
                 padding-top: var(--header-height);
+                padding-top: calc(var(--header-height) + 20px);
             }
             
             .hero-content {
@@ -1436,3 +1447,21 @@
                 font-size: 1.2rem;
             }
         }
+
+        html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+/* الصور والعناصر */
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
