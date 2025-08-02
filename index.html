@@ -6,6 +6,7 @@
     <title>د. سهيلة عماد | أخصائية تغذية</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
@@ -30,7 +31,7 @@
                 </ul>
             </nav>
             
-            <div style="display: flex; gap: 10px; align-items: center;">
+            <div class="header-buttons">
                 <button class="top-booking-btn" id="headerBookingBtn">
                     <i class="fas fa-calendar-check"></i>
                     <span id="header-booking-text">احجز الآن</span>
@@ -41,9 +42,7 @@
                     <span id="lang-text">English</span>
                 </button>
             </div>
-
-
-
+        </div>
     </header>
 
     <!-- Hero Section -->
@@ -136,7 +135,7 @@
                 <label for="testimonial" id="testimonial-label">تجربتك معنا</label>
                 <textarea id="testimonial" placeholder="شاركنا تجربتك مع د.سهيلة"></textarea>
             </div>
-            <button class="btn btn-outline" id="submitTestimonial" style="background: rgba(255, 255, 255, 0.15); color: white; border-color: white;">
+            <button class="btn btn-outline" id="submitTestimonial">
                 <i class="fas fa-paper-plane"></i>
                 <span id="submit-text">إرسال تجربتك</span>
             </button>
@@ -189,21 +188,6 @@
         <div class="contact-container">
             <div class="contact-info">
                 <h3 id="contact-info-title">تواصل مع د.سهيلة</h3>
-                <p id="contact-text-1">
-                    دلوقتي تقدر تتابع التغذيه بتاعتك وانت في مكانك 🦋💙
-                    تعبنا دايما جمب وصولك لهدفك شئ صغير 💪🏻
-                </p>
-                <p id="contact-text-2">
-                    متنساش ان دايما احنا معاك سواء اونلاين او من المكان 💚
-                    تحت إشراف أخصائية التغذية العلاجية والرياضية وتغذيه الأطفال/ سهيله عماد 💚
-                </p>
-                <p id="contact-text-3">
-                    شعارنا #مفيش_حرمان_الدايت_مع_سهيله_مش_زي_زمان 🍍
-                </p>
-                <p id="contact-text-4">
-                    ودا طبعا بدون اي ادويه 😎💪🏻
-                    يعني هتأكل وهتنزل نزول صحي في الوزن صعب تزيد بعديه تاني 🫂
-                </p>
                 <div class="contact-methods">
                     <div class="contact-method">
                         <i class="fas fa-phone-alt"></i>
@@ -214,7 +198,7 @@
                     </div>
                     <div class="contact-method">
                         <i class="fas fa-envelope"></i>
-                       <div>
+                        <div>
                             <p id="email-label">البريد الإلكتروني</p>
                             <p>
                                 <a href="mailto:s.e.abdelaaty@xed.aucegypt.edu" class="email-link">
@@ -222,9 +206,6 @@
                                 </a>
                             </p>
                         </div>
-
-
-
                     </div>
                     <div class="contact-method">
                         <i class="fas fa-map-marker-alt"></i>
